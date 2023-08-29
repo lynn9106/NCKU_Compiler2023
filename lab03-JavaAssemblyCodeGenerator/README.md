@@ -1,1 +1,26 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/ouYzz0la)
+# Java Assembly Code Generator
+*Compiler 2023 Programming Assignment III
+Compiler for Java Assembly Code Generation*  
+  
+**a code generator for generating Java assembly code (for Java Virtual Machines) of the given μRust program**  
+
+
+## Environment
+For Linux  
+>Ubuntu 20.04 LTS
+
+Install Dependencies
+>`$ sudo apt install flex bison`  
+>Java Virtual Machine (JVM): `$ sudo apt install default-jre`
+
+local judge:
+`pip3 install local-judge`
+
+
+## Get Started
+* Compile source code and execute with input file
+```
+make clean && make
+./mycompiler < input.rs java -jar jasmin.jar hw3.j java Main
+```
+
