@@ -11,7 +11,7 @@ Ubuntu 20.04 LTS
 'sudo apt install flex bison git python3 python3-pip'
 local judge: 'pip3 install local-judge'
 
-##Get Started
+## Get Started
 * Compile source code and execute with input file
 '$make clean && make
 $ ./myscanner < input/a01_arithmetic.rs >| tmp.out'
